@@ -16,8 +16,8 @@ try:
 	from selenium import webdriver
 
 except:
-	print "[*] Error Importing Exterinal Libraries"
-	print "[*] Trying install it using the requirements.txt file..\n"
+	print ([*] Error Importing Exterinal Libraries)
+	print ([*] Trying install it using the requirements.txt file..\n)
 	try:
 		os.system("pip install -r requirements.txt")
 	except:
